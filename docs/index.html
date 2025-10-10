@@ -71,9 +71,9 @@
 </svg> </span>Мапа терміналів для оплати готівкою</a></p>
         <div class="app_unip"> 
           <p class="tac">Завантажити додаток UNIP:</p>
-          <div class="app_btn flex gap_30"><a class="btn google_play" href="">
-              <picture><img src="img/googleplay.png" alt="https://play.google.com/store/apps/details?id=biz.unip.unip&amp;pcampaignid=web_share"></picture></a><a class="btn a_store" href="">
-              <picture><img src="img/appstore.png" alt="https://apps.apple.com/ua/app/unip-%D0%BF%D0%B0%D1%80%D0%BA%D1%83%D0%B9%D1%81%D1%8F-%D0%B1%D0%B5%D0%B7-%D0%BF%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC/id1160778590?l=ru"></picture></a></div>
+          <div class="app_btn flex gap_30"><a class="btn google_play" href="https://play.google.com/store/apps/details?id=biz.unip.unip&amp;pcampaignid=web_share">
+              <picture><img src="img/googleplay.png" alt=""></picture></a><a class="btn a_store" href="https://apps.apple.com/ua/app/unip-%D0%BF%D0%B0%D1%80%D0%BA%D1%83%D0%B9%D1%81%D1%8F-%D0%B1%D0%B5%D0%B7-%D0%BF%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC/id1160778590?l=ru">
+              <picture><img src="img/appstore.png" alt=""></picture></a></div>
         </div>
       </section>
       <section class="rules_container"> 
@@ -120,9 +120,9 @@
         </div>
         <div class="app_block"> 
           <h3>Завантажити додаток UNIP</h3>
-          <div class="app_footer gap_30"><a class="btn google_play" href="">
-              <picture><img src="img/googleplay.png" alt="https://play.google.com/store/apps/details?id=biz.unip.unip&amp;pcampaignid=web_share"></picture></a><a class="btn a_store" href="">
-              <picture><img src="img/appstore.png" alt="https://apps.apple.com/ua/app/unip-%D0%BF%D0%B0%D1%80%D0%BA%D1%83%D0%B9%D1%81%D1%8F-%D0%B1%D0%B5%D0%B7-%D0%BF%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC/id1160778590?l=ru"></picture></a></div>
+          <div class="app_footer gap_30"><a class="btn google_play" href="https://play.google.com/store/apps/details?id=biz.unip.unip&amp;pcampaignid=web_share">
+              <picture><img src="img/googleplay.png" alt=""></picture></a><a class="btn a_store" href="https://apps.apple.com/ua/app/unip-%D0%BF%D0%B0%D1%80%D0%BA%D1%83%D0%B9%D1%81%D1%8F-%D0%B1%D0%B5%D0%B7-%D0%BF%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC/id1160778590?l=ru">
+              <picture><img src="img/appstore.png" alt=""></picture></a></div>
         </div>
         <div class="contacts"> 
           <h3>Контакти:</h3>
