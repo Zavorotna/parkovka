@@ -30,9 +30,9 @@ document.addEventListener("DOMContentLoaded", function () {
         fetch(jsonUrl)
             .then(res => res.json())
             .then(data => {
-                console.log(data)
+                // console.log(data)
                 const point = data.find(item => item.id === code)
-                console.log(point)
+                // console.log(point)
                 if (!point) return
 
                 // --- Перевірка дня тижня ---
