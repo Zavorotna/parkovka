@@ -4,15 +4,15 @@ document.addEventListener("DOMContentLoaded", function () {
         params = new URLSearchParams(window.location.search),
         adressParam = params.get("adress")
 
-    let codeToLoad = null;
+    let codeToLoad = null
 
     if (adressParam) {
-        select.value = adressParam;
-        codeToLoad = adressParam;
+        select.value = adressParam
+        codeToLoad = adressParam
     } else if (select && select.value) {
-        codeToLoad = select.value;
+        codeToLoad = select.value
     } else {
-        codeToLoad = "ХМ001"; 
+        codeToLoad = "ХМ001" 
     }
 
     loadAdressData(codeToLoad)
