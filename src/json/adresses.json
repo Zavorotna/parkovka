@@ -1,0 +1,58 @@
+[
+    {
+        "id": "ХМ001",
+        "adress": "вул. Львівське шосе ХМ001",
+        "grafick": ["вт", "ср", "пт", "сб", "нд"],
+        "time": "7:00 - 15:00",
+        "pb": "15₴",
+        "hourPB": true,
+        "linkPB": "",
+        "unip": "15₴",
+        "hourUNIp": true,
+        "linkUNIp": "https://unip.com.ua/payment?cityId=3&parkingPlaceCode= (https://unip.com.ua/payment?cityId=1&parkingPlaceCode=PS002)ХМ001",
+        "iframe": "<iframe src='https://www.google.com/maps/d/u/0/embed?mid=1roG53wVnkD_0QCbJZ9veS1fprnQIjKQ&ehbc=2E312F'></iframe>",
+        "terminalAdress": [
+            { "key": "ХМ 001", "value": "вул. Львівське шосе(вуличний термінал, 4шт на паркувальному майданчику)" }
+        ]
+
+    },
+    {
+        "id": "ХМ002",
+        "adress": "вул. Соборна ХМ002",
+        "grafick": ["пн", "вт", "ср", "чт", "пт", "сб", "нд"],
+        "time": "8:00 - 18:00",
+        "pb": "15₴",
+        "hourPB": true,
+        "linkPB": "",
+        "unip": "15₴",
+        "hourUNIp": true,
+        "linkUNIp": "https://unip.com.ua/payment?cityId=3&parkingPlaceCode= (https://unip.com.ua/payment?cityId=1&parkingPlaceCode=PS002)ХМ002",
+        "iframe": "<iframe src='https://www.google.com/maps/d/u/0/embed?mid=1vBe-rHa8IhRm0Sspo49gpuHbyCKEgEU&ehbc=2E312F'></iframe>",
+        "terminalAdress": [
+            { "key": "ХМ 002", "value": "Перехрестя вул. Соборна - Проскурівського Підпілля(вуличний термінал)" },
+            { "key": "ХМ 002", "value": "вул. Проскурівська 1(вуличний термінал)" },
+            { "key": "ХМ 002", "value": "вул. Соборна 15(магазин Аврора)" },
+            { "key": "ХМ 002", "value": "вул.Староміська 29(Автостанція №3)" }
+        ]
+
+    },
+    {
+        "id": "ХМ003",
+        "adress": "вул. Грушевського ХМ003",
+        "grafick": ["пн", "вт", "ср", "чт", "пт", "сб", "нд"],
+        "time": "8:00 - 18:00",
+        "pb": "15₴",
+        "hourPB": true,
+        "linkPB": "",
+        "unip": "15₴",
+        "hourUNIp": true,
+        "linkUNIp": "https://unip.com.ua/payment?cityId=3&parkingPlaceCode= (https://unip.com.ua/payment?cityId=1&parkingPlaceCode=PS002)ХМ003",
+        "iframe": "<iframe src='https://www.google.com/maps/d/u/0/embed?mid=18U6MO5iouUGp7SC81nF49WUW3sKc97Q&ehbc=2E312F'></iframe>",
+        "terminalAdress": [
+            { "key": "ХМ 003", "value": "Перехрестя вул.Грушевського - Героїв Майдану(вуличний термінал)" },
+            { "key": "ХМ 003", "value": "вул. Проскурівська 34(магазин Київстар)" },
+            { "key": "ХМ 003", "value": "Перехрестя вул. Грушевського-Подільської(біля магазину Шпалери, вуличний термінал)" },
+            { "key": "ХМ 003", "value": "вул.Староміська 48(магазин “Мʼясний маркет”)" }
+        ]
+    }
+]

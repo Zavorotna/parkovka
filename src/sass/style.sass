@@ -1,0 +1,343 @@
+@import components/mixins
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+html
+    scroll-behavior: smooth
+
+body
+    font-family: XM
+
+header
+    padding: 35px 0 0
+
+h1
+    color: #00284D
+    font-size: 30px
+    font-weight: 700 
+    +media(768)
+        font-size: 64px
+
+h2
+    color: #00284D
+    font-size: 24px
+    font-weight: 700
+    +media(768)
+        font-size: 42px
+
+a
+    text-decoration: none
+
+label
+    display: inline-block
+    position: relative
+    &::before
+        content: ""
+        position: absolute
+        top: 50%
+        right: 0
+        width: 20px
+        height: 10px
+        background: url(../img/arrow.svg) no-repeat center/contain
+        transform: translateY(-50%)  
+        z-index: -1
+        +media(768)
+            width: 30px
+            height: 20px
+select
+    display: block
+    appearance: none
+    outline: none
+    border: none
+    padding: 10px 20px 10px 10px
+    background-color: transparent
+    color: #3CC8C8
+    font-family: XM
+    text-align: center
+    font-size: 24px
+    font-weight: 700
+    line-height: 1.4em
+    z-index: 2
+    +media(768)
+        padding: 30px 40px 30px 30px
+        font-size: 42px
+
+.wrapper
+    width: 90%
+    margin: 0 auto
+    +media(1440)
+        max-width: 1043px
+
+.map_wrapper
+    width: 95%
+    +media(1440)
+        max-width: 1537px
+
+.tac
+    text-align: center
+
+.grid
+    display: grid
+
+.col_2
+    +media(768)
+        grid-template-columns: repeat(2, 1fr)
+    
+.col_3
+    +media(768)
+        grid-template-columns: repeat(3, 1fr)
+
+.flex_between
+    display: flex
+    justify-content: space-between
+
+.items_center
+    align-items: center
+
+.flex
+    display: flex
+
+.gap_10
+    gap: 10px
+
+.gap_30
+    gap:10px
+    +media(768)
+        gap:30px
+
+.gap_50
+    gap: 50px
+
+.wrap
+    flex-wrap: wrap
+    justify-content: center
+    +media(1024)
+        flex-wrap: nowrap
+.tl
+    text-align: left
+
+.logo
+    svg
+        width: 57px
+        height: 90px
+        +media(768)
+            width: 128px
+            height: 200px
+
+.main_section
+    padding-bottom: 80px
+  
+.pb_container,
+.unip_container,
+.abonement_container
+    padding: 16px 20px
+    border-radius: 5px
+    background: #F6F9F9
+    +media(768)
+        padding: 30px 20px 10px
+    picture
+        max-width: 43px
+    img
+        width: 100%
+        object-fit: contain
+
+.pb_container
+    picture
+        max-width: 27px
+
+.payment
+    font-size: 18px
+    text-align: left
+    color: #00284D
+    font-weight: 700
+    padding-bottom: 5px
+    border-bottom: 2px solid #3CC8C8
+    +media(768)
+        padding-bottom: 15px
+        font-size: 22px
+
+.price_pb,
+.price_unip,
+.price_abonement
+    padding-top: 5px
+    font-size: 30px
+    text-align: left
+    color: #00284D
+    font-weight: 700
+    +media(768)
+        padding-top: 20px
+        font-size: 40px
+    span
+        color: #7A7A7A
+        font-size: 18px
+        font-weight: 400
+        +media(768)
+            font-size: 24px
+
+.map_text
+    padding: 21px 0 30px
+    +media(768)
+        padding: 21px 0 40px
+    a
+        color: #3CC8C8
+        font-size: 16px
+        font-weight: 400
+        +media(768)
+            font-size: 24px
+
+.icon
+    position: relative
+    display: inline-block
+    min-width: 30px
+    min-height: 30px
+    border-radius: 3px
+    background: #3CC8C8
+    span, svg
+        color: #fff
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+.app_unip
+    p
+        padding-bottom: 30px
+        font-size: 18px
+        font-weight: 400
+        +media(768)
+            font-size: 28px
+    img
+        width: 100%
+        object-fit: contain
+.app_btn
+    justify-content: center
+    a
+        display: block
+        width: 50%
+        max-width: 267px
+        padding: 17px 30px
+        line-height: 0
+        border-radius: 5px
+        background: #F6F9F9
+
+.rules_container
+    padding: 35px 0
+    background: #F6F9F9
+    +media(768)
+        padding: 50px 0
+    .flex
+        margin-bottom: 20px
+        +media(768)
+            margin-bottom: 30px
+    h2
+        padding-bottom: 30px
+        +media(768)
+            padding-bottom: 50px
+    p
+        font-size: 14px
+        font-weight: 300
+        +media(768)
+            font-size: 24px
+        b
+            font-weight: 400
+
+.attention
+    justify-content: center
+    picture
+        max-width: 33px
+    img
+        width: 100%
+    p
+        color: #C03
+        font-size: 14px
+        font-weight: 700
+        text-transform: uppercase
+        +media(768)
+            font-size: 18px
+
+.adress_container
+    padding: 50px 0
+    h2
+        padding-bottom: 20px
+        +media(1024)
+            padding-bottom: 40px
+    +media(1024)
+        padding: 80px 0
+.adress_id
+    padding-bottom: 10px
+    color: #00284D
+    font-size: 18px
+    font-weight: 700
+    +media(1024)
+        padding-bottom: 20px
+
+.adress_text_terminal
+    padding-bottom: 10px
+    font-size: 16px
+    font-weight: 400
+    +media(1024)
+        padding-bottom: 20px
+    span
+        display: block
+        font-style: italic
+        font-weight: 300
+.map
+    position: relative
+    padding: 72px
+    min-height: 500px
+    overflow: hidden
+    order: 1
+    +media(768)
+        order: 0
+    iframe
+        position: absolute
+        top: -72px
+        left: 0
+        border: none
+        width: 100%
+        height: 100%
+.logo_footer
+    color: #1A3347
+    font-size: 14px
+    font-weight: 700
+    line-height: 1.3em
+    text-transform: uppercase
+
+.logo_block
+    padding: 15px 22px
+    border-radius: 5px
+    border: 1px solid #5DAFB7
+    background: #FFF
+
+.footer
+    padding: 38px 0 22px
+    background: #F6F9F9
+    .wrapper
+        > div
+            width: 100%
+    h3 
+        padding-bottom: 16px
+        color:#00284D
+        font-size: 18px
+        font-weight: 700
+
+.app_footer
+    display: flex
+    +media(1024)
+        display: grid
+        grid-template-columns: repeat(2, 1fr)
+    a
+        display: block
+        line-height: 0
+    picture
+        display: inline-block
+        max-width: 101px
+    img
+        width: 100%
+        object-fit: cover
+
+.contacts
+    p
+        padding-bottom: 15px
+    a
+        color: #121212

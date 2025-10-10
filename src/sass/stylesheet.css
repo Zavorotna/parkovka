@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'XM';
+    src: url('../fonts/XM-Light.woff2') format('woff2'),
+        url('../fonts/XM-Light.woff') format('woff'),
+        url('../fonts/XM-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'XM';
+    src: url('../fonts/XM-Bold.woff2') format('woff2'),
+        url('../fonts/XM-Bold.woff') format('woff'),
+        url('../fonts/XM-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'XM';
+    src: url('../fonts/XM-Regular.woff2') format('woff2'),
+        url('../fonts/XM-Regular.woff') format('woff'),
+        url('../fonts/XM-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
