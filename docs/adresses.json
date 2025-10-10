@@ -9,7 +9,7 @@
         "linkPB": "",
         "unip": "15₴",
         "hourUNIp": true,
-        "linkUNIp": "https://unip.com.ua/payment?cityId=3&parkingPlaceCode= (https://unip.com.ua/payment?cityId=1&parkingPlaceCode=PS002)ХМ001",
+        "linkUNIp": "https://unip.com.ua/payment?cityId=3&parkingPlaceCode=ХМ001",
         "iframe": "<iframe src='https://www.google.com/maps/d/u/0/embed?mid=1roG53wVnkD_0QCbJZ9veS1fprnQIjKQ&ehbc=2E312F'></iframe>",
         "terminalAdress": [
             { "key": "ХМ 001", "value": "вул. Львівське шосе(вуличний термінал, 4шт на паркувальному майданчику)" }
@@ -26,7 +26,7 @@
         "linkPB": "",
         "unip": "15₴",
         "hourUNIp": true,
-        "linkUNIp": "https://unip.com.ua/payment?cityId=3&parkingPlaceCode= (https://unip.com.ua/payment?cityId=1&parkingPlaceCode=PS002)ХМ002",
+        "linkUNIp": "https://unip.com.ua/payment?cityId=3&parkingPlaceCode=ХМ002",
         "iframe": "<iframe src='https://www.google.com/maps/d/u/0/embed?mid=1vBe-rHa8IhRm0Sspo49gpuHbyCKEgEU&ehbc=2E312F'></iframe>",
         "terminalAdress": [
             { "key": "ХМ 002", "value": "Перехрестя вул. Соборна - Проскурівського Підпілля(вуличний термінал)" },
@@ -46,7 +46,7 @@
         "linkPB": "",
         "unip": "15₴",
         "hourUNIp": true,
-        "linkUNIp": "https://unip.com.ua/payment?cityId=3&parkingPlaceCode= (https://unip.com.ua/payment?cityId=1&parkingPlaceCode=PS002)ХМ003",
+        "linkUNIp": "https://unip.com.ua/payment?cityId=3&parkingPlaceCode=ХМ003",
         "iframe": "<iframe src='https://www.google.com/maps/d/u/0/embed?mid=18U6MO5iouUGp7SC81nF49WUW3sKc97Q&ehbc=2E312F'></iframe>",
         "terminalAdress": [
             { "key": "ХМ 003", "value": "Перехрестя вул.Грушевського - Героїв Майдану(вуличний термінал)" },
