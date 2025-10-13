@@ -139,6 +139,7 @@
           <p><a href="tel:0382650061">(0382) 65 00 61</a></p>
         </div>
       </div>
+      <p class="tac">&copy Сopyright  2025 Парковка</p>
     </footer>
     <script src="js/scripts.js"> </script>
   </body>
