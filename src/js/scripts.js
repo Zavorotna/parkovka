@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
     select.addEventListener("change", function () {
         const val = select.value,
             newUrl = `${window.location.pathname}?adress=${val}`
-        console.log(val)
+        // console.log(val)
         window.history.pushState({}, "", newUrl)
 
         loadAdressData(val)
@@ -74,7 +74,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 //iframe
                 const mapIframe = document.querySelector(".map")
                 mapIframe.innerHTML = point.iframe
-
+                
+                const dayTime = document.querySelector(".day_time ")
+                dayTime.textContent = point.day_time
                 //map adress
                 const parsed = point.terminalAdress.map(item => {
                     const match = item.value.match(/^(.+?)\((.+)\)$/)
@@ -102,10 +104,13 @@ document.addEventListener("DOMContentLoaded", function () {
                     })
                 })
                 document.querySelector(".adress_text").innerHTML = ""
+   
                 for (const key in grouped) {
-                    const pId = document.createElement('p')
+                    const pId = document.createElement('p'),
+                        idHeader = document.querySelector(".id")
                     pId.classList.add('adress_id')
                     pId.textContent = key 
+                    idHeader.textContent = key 
                     document.querySelector(".adress_text").appendChild(pId)
 
                     grouped[key].forEach(addr => {

@@ -9,9 +9,6 @@ html
 body
     font-family: XM
 
-header
-    padding: 35px 0 0
-
 h1
     color: #00284D
     font-size: 30px
@@ -116,7 +113,37 @@ select
         flex-wrap: nowrap
 .tl
     text-align: left
+.gray_bg
+    flex-wrap: wrap
+    justify-content: center
+    padding: 16px 0
+    margin-bottom: 35px
+    background: #F6F9F9
+    +media(768)
+        padding: 22px 0
+        flex-wrap: nowrap
+    > p
+        width: 100%
+        color: #3CC8C8
+        font-size: 16px
+        font-weight: 700
+        +media(768)
+            width: auto
+            font-size: 24px
+    b
+        color: #00284D
+        font-size: 12px
+        font-weight: 700
+        line-height: 1.6em
+        +media(768)
+            font-size: 18px
 
+.day_time
+    font-size: 12px
+    font-weight: 400
+    line-height: 1.8em
+    +media(768)
+        font-size: 16px
 .logo
     svg
         width: 57px
