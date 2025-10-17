@@ -69,7 +69,7 @@
               <p>Абонемент на парковку</p>
             </div>
             <div class="price_abonement"> 
-              <p>600₴<span>/місяць</span></p>
+              <p>1500₴<span>/місяць</span></p>
             </div>
           </div>
         </div>
