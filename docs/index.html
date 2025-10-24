@@ -44,16 +44,7 @@
             <option value="ХМ003">вул. Грушевського ХМ003</option>
           </select>
         </label>
-        <div class="grid col_3 gap_30">
-          <div class="pb_container"> <a class="mask mask_pb" href=""> </a>
-            <div class="payment flex gap_10 items_center">
-              <picture> <img src="img/pb.png" alt=""></picture>
-              <p>Оплата ПриватБанк</p>
-            </div>
-            <div class="price_pb">
-              <p> <span>/година</span></p>
-            </div>
-          </div>
+        <div class="grid col_2 gap_30">
           <div class="unip_container"> <a class="mask mask_unip" href=""> </a>
             <div class="payment flex gap_10 items_center">
               <picture> <img src="img/unip.png" alt=""></picture>

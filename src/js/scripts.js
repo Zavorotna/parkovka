@@ -55,8 +55,10 @@ document.addEventListener("DOMContentLoaded", function () {
                 const isTimeMatch = now >= startTime && now <= endTime
 
                 // --- Ціни ---
-                const pbPrice = document.querySelector(".price_pb p")
-                pbPrice.innerHTML = `${isDayMatch && isTimeMatch ? point.pb : "0₴"} <span>/година</span>`
+                if(document.querySelector(".price_pb p")) {
+                    const pbPrice = document.querySelector(".price_pb p")
+                    pbPrice.innerHTML = `${isDayMatch && isTimeMatch ? point.pb : "0₴"} <span>/година</span>`
+                }
 
                 const unipPrice = document.querySelector(".price_unip p")
                 unipPrice.innerHTML = `${isDayMatch && isTimeMatch ? point.unip : "0₴"} <span>/година</span>`
@@ -64,8 +66,10 @@ document.addEventListener("DOMContentLoaded", function () {
                 // --- Посилання на оплату ---
 
                 //приват
-                const pbLink = document.querySelector(".mask_pb")
-                pbLink.href = point.linkPB
+                if( document.querySelector(".mask_pb")) {
+                    const pbLink = document.querySelector(".mask_pb")
+                    pbLink.href = point.linkPB
+                }
 
                 //unip
                 const unipLink = document.querySelector(".mask_unip")
