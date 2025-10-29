@@ -28,3 +28,35 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Fixel Display';
+    src: url('../fonts/FixelDisplay-Regular.woff2') format('woff2'),
+        url('../fonts/FixelDisplay-Regular.woff') format('woff'),
+        url('../fonts/FixelDisplay-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fixel Display';
+    src: url('../fonts/FixelDisplay-Medium.woff2') format('woff2'),
+        url('../fonts/FixelDisplay-Medium.woff') format('woff'),
+        url('../fonts/FixelDisplay-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fixel Display';
+    src: url('../fonts/FixelDisplay-Bold.woff2') format('woff2'),
+        url('../fonts/FixelDisplay-Bold.woff') format('woff'),
+        url('../fonts/FixelDisplay-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+

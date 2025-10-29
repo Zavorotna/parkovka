@@ -111,6 +111,7 @@ select
     justify-content: center
     +media(1024)
         flex-wrap: nowrap
+        justify-content: space-between
 .tl
     text-align: left
 .gray_bg
@@ -315,22 +316,19 @@ select
         font-style: italic
         font-weight: 300
 .map
-    // position: relative
-    // padding: 72px
     min-height: 500px
     overflow: hidden
     order: 1
     +media(768)
         order: 0
     iframe
-        // position: absolute
-        // top: -72px
-        // left: 0
         border: none
         width: 100%
         height: 100%
+
 .logo_footer
     color: #1A3347
+    font-family: 'Fixel Display'
     font-size: 14px
     font-weight: 700
     line-height: 1.3em
@@ -342,12 +340,14 @@ select
     border: 1px solid #5DAFB7
     background: #FFF
 
+div.app_block,
+.contacts
+    +media(768)
+        min-width: 24vw
+
 .footer
     padding: 38px 0 22px
     background: #F6F9F9
-    .wrapper
-        > div
-            width: 100%
     h3 
         padding-bottom: 16px
         color:#00284D

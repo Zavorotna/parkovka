@@ -44,7 +44,7 @@
             <option value="ХМ003">вул. Грушевського ХМ003</option>
           </select>
         </label>
-        <div class="grid col_2 gap_30">
+        <div class="grid gap_30 justify_center">
           <div class="unip_container"> <a class="mask mask_unip" href=""> </a>
             <div class="payment flex gap_10 items_center">
               <picture> <img src="img/unip.png" alt=""></picture>
@@ -52,15 +52,6 @@
             </div>
             <div class="price_unip">
               <p><span>/година</span></p>
-            </div>
-          </div>
-          <div class="abonement_container"><a class="mask mask_abonement" href="https://unip.com.ua/subscriptions?cityId=3"> </a>
-            <div class="payment flex gap_10 items_center">
-              <picture> <img src="img/unip.png" alt=""></picture>
-              <p>Абонемент на парковку</p>
-            </div>
-            <div class="price_abonement"> 
-              <p>1500₴<span>/місяць</span></p>
             </div>
           </div>
         </div>
@@ -116,7 +107,7 @@
 <path d="M21.2531 14.821C21.2531 14.8462 21.2495 14.8714 21.2495 14.8966V21.9861L24.9058 18.3298V14.8966C24.9058 14.8714 24.9034 14.8462 24.9022 14.821L27.8782 11.845C28.2106 11.5126 28.3978 11.0614 28.3978 10.591C28.3978 9.01064 26.4874 8.21985 25.3702 9.33704L23.3747 11.3326C23.2115 11.4958 22.9451 11.4958 22.7819 11.3326L20.7863 9.33704C19.6691 8.21985 17.7587 9.01064 17.7587 10.591C17.7587 11.0614 17.9447 11.5126 18.2783 11.845L21.2543 14.821H21.2531Z" fill="#1A3347"/>
 </svg>
           </div>
-          <p>КП по організації роботи<br>міського пасажирського транспорту</p>
+          <p>Комунальне Підприємство по організації <br>роботи міського пасажирського транспорту</p>
         </div>
         <div class="app_block"> 
           <h3>Завантажити додаток UNIP</h3>
