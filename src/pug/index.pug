@@ -37,7 +37,7 @@ html(lang="en")
                         option(value="ХМ001") вул. Львівське шосе ХМ001
                         option(value="ХМ002") вул. Соборна ХМ002
                         option(value="ХМ003") вул. Грушевського ХМ003
-                .grid.gap_30.justify_center
+                .grid.col_2.gap_30.justify_center
                     //- .pb_container 
                     //-     a.mask.mask_pb(href="") 
                     //-     .payment.flex.gap_10.items_center
@@ -47,6 +47,15 @@ html(lang="en")
                     //-     .price_pb
                     //-         p 
                     //-             span /година
+                    .ab_container 
+                        a.mask.mask_pb(href="") 
+                        .payment.flex.gap_10.items_center
+                            picture 
+                                img(src="img/a_bank_logo.jpg", alt="")
+                            p Оплата А-Банк
+                        .price_ab
+                            p 
+                                span /година
                     .unip_container 
                         a.mask.mask_unip(href="") 
                         .payment.flex.gap_10.items_center

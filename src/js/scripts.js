@@ -60,6 +60,11 @@ document.addEventListener("DOMContentLoaded", function () {
                     pbPrice.innerHTML = `${isDayMatch && isTimeMatch ? point.pb : "0₴"} <span>/година</span>`
                 }
 
+                if(document.querySelector(".price_ab p")) {
+                    const abPrice = document.querySelector(".price_ab p")
+                    abPrice.innerHTML = `${isDayMatch && isTimeMatch ? point.ab : "0₴"} <span>/година</span>`
+                }
+
                 const unipPrice = document.querySelector(".price_unip p")
                 unipPrice.innerHTML = `${isDayMatch && isTimeMatch ? point.unip : "0₴"} <span>/година</span>`
 

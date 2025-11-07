@@ -44,7 +44,16 @@
             <option value="ХМ003">вул. Грушевського ХМ003</option>
           </select>
         </label>
-        <div class="grid gap_30 justify_center">
+        <div class="grid col_2 gap_30 justify_center">
+          <div class="ab_container"> <a class="mask mask_pb" href=""> </a>
+            <div class="payment flex gap_10 items_center">
+              <picture> <img src="img/a_bank_logo.jpg" alt=""></picture>
+              <p>Оплата А-Банк</p>
+            </div>
+            <div class="price_ab">
+              <p> <span>/година</span></p>
+            </div>
+          </div>
           <div class="unip_container"> <a class="mask mask_unip" href=""> </a>
             <div class="payment flex gap_10 items_center">
               <picture> <img src="img/unip.png" alt=""></picture>
