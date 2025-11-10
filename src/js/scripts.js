@@ -75,6 +75,10 @@ document.addEventListener("DOMContentLoaded", function () {
                     const pbLink = document.querySelector(".mask_pb")
                     pbLink.href = point.linkPB
                 }
+                if( document.querySelector(".mask_ab")) {
+                    const abLink = document.querySelector(".mask_ab")
+                    abLink.href = point.linkAB
+                }
 
                 //unip
                 const unipLink = document.querySelector(".mask_unip")
