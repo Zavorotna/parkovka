@@ -45,15 +45,6 @@
           </select>
         </label>
         <div class="grid col_2 gap_30 justify_center">
-          <div class="ab_container"> <a class="mask mask_ab" href=""> </a>
-            <div class="payment flex gap_10 items_center">
-              <picture> <img src="img/a_bank_logo.jpg" alt=""></picture>
-              <p>Оплата А-Банк</p>
-            </div>
-            <div class="price_ab">
-              <p> <span>/година</span></p>
-            </div>
-          </div>
           <div class="unip_container"> <a class="mask mask_unip" href=""> </a>
             <div class="payment flex gap_10 items_center">
               <picture> <img src="img/unip.png" alt=""></picture>
@@ -63,18 +54,27 @@
               <p><span>/година</span></p>
             </div>
           </div>
+          <div class="ab_container"> <a class="mask mask_ab" href=""> </a>
+            <div class="payment flex gap_10 items_center">
+              <picture> <img src="img/a_bank_logo.jpg" alt=""></picture>
+              <p>Оплата А-Банк</p>
+            </div>
+            <div class="price_ab">
+              <p> <span>/година</span></p>
+            </div>
+          </div>
         </div>
-        <p class="tl map_text"><a class="flex gap_10 items_center" href="#contacts"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-<path d="M1 5.61271V15.7165C1 17.6894 2.24609 18.4994 3.75987 17.5233L5.92899 16.1318C6.39974 15.8307 7.18432 15.7995 7.67352 16.0799L12.5194 18.8109C13.0087 19.0809 13.7932 19.0601 14.264 18.759L18.2607 16.1837C18.7684 15.8514 19.193 15.0415 19.193 14.3769V4.27316C19.193 2.30018 17.9469 1.49022 16.4331 2.46633L14.264 3.8578C13.7932 4.15894 13.0087 4.19009 12.5194 3.90972L7.67352 1.18908C7.18432 0.919092 6.39974 0.93986 5.92899 1.241L1.93226 3.81626C1.41536 4.14855 1 4.95851 1 5.61271Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M6.78741 1.6875V15.1868" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M13.4055 4.40814V18.3021" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-</svg> </span>Мапа терміналів для оплати готівкою</a></p>
         <div class="app_unip"> 
           <p class="tac">Завантажити додаток UNIP:</p>
           <div class="app_btn flex gap_30"><a class="btn google_play" href="https://play.google.com/store/apps/details?id=biz.unip.unip&amp;pcampaignid=web_share">
               <picture><img src="img/googleplay.png" alt=""></picture></a><a class="btn a_store" href="https://apps.apple.com/ua/app/unip-%D0%BF%D0%B0%D1%80%D0%BA%D1%83%D0%B9%D1%81%D1%8F-%D0%B1%D0%B5%D0%B7-%D0%BF%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC/id1160778590?l=ru">
               <picture><img src="img/appstore.png" alt=""></picture></a></div>
         </div>
+        <p class="tl map_text"><a class="flex gap_10 items_center" href="#contacts"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+<path d="M1 5.61271V15.7165C1 17.6894 2.24609 18.4994 3.75987 17.5233L5.92899 16.1318C6.39974 15.8307 7.18432 15.7995 7.67352 16.0799L12.5194 18.8109C13.0087 19.0809 13.7932 19.0601 14.264 18.759L18.2607 16.1837C18.7684 15.8514 19.193 15.0415 19.193 14.3769V4.27316C19.193 2.30018 17.9469 1.49022 16.4331 2.46633L14.264 3.8578C13.7932 4.15894 13.0087 4.19009 12.5194 3.90972L7.67352 1.18908C7.18432 0.919092 6.39974 0.93986 5.92899 1.241L1.93226 3.81626C1.41536 4.14855 1 4.95851 1 5.61271Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M6.78741 1.6875V15.1868" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M13.4055 4.40814V18.3021" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg> </span>Мапа терміналів для оплати готівкою</a></p>
       </section>
       <section class="rules_container"> 
         <div class="wrapper">

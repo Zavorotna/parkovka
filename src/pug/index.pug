@@ -47,15 +47,6 @@ html(lang="en")
                     //-     .price_pb
                     //-         p 
                     //-             span /година
-                    .ab_container 
-                        a.mask.mask_ab(href="") 
-                        .payment.flex.gap_10.items_center
-                            picture 
-                                img(src="img/a_bank_logo.jpg", alt="")
-                            p Оплата А-Банк
-                        .price_ab
-                            p 
-                                span /година
                     .unip_container 
                         a.mask.mask_unip(href="") 
                         .payment.flex.gap_10.items_center
@@ -64,6 +55,15 @@ html(lang="en")
                             p Оплата UNIP
                         .price_unip
                             p
+                                span /година
+                    .ab_container 
+                        a.mask.mask_ab(href="") 
+                        .payment.flex.gap_10.items_center
+                            picture 
+                                img(src="img/a_bank_logo.jpg", alt="")
+                            p Оплата А-Банк
+                        .price_ab
+                            p 
                                 span /година
                     //- .abonement_container
                     //-     a.mask.mask_abonement(href="https://unip.com.ua/subscriptions?cityId=3") 
@@ -74,15 +74,6 @@ html(lang="en")
                     //-     .price_abonement 
                     //-         p 1500₴
                     //-             span /місяць
-                p.tl.map_text
-                    a(href="#contacts").flex.gap_10.items_center
-                        span.icon
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                <path d="M1 5.61271V15.7165C1 17.6894 2.24609 18.4994 3.75987 17.5233L5.92899 16.1318C6.39974 15.8307 7.18432 15.7995 7.67352 16.0799L12.5194 18.8109C13.0087 19.0809 13.7932 19.0601 14.264 18.759L18.2607 16.1837C18.7684 15.8514 19.193 15.0415 19.193 14.3769V4.27316C19.193 2.30018 17.9469 1.49022 16.4331 2.46633L14.264 3.8578C13.7932 4.15894 13.0087 4.19009 12.5194 3.90972L7.67352 1.18908C7.18432 0.919092 6.39974 0.93986 5.92899 1.241L1.93226 3.81626C1.41536 4.14855 1 4.95851 1 5.61271Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M6.78741 1.6875V15.1868" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M13.4055 4.40814V18.3021" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg> 
-                        | Мапа терміналів для оплати готівкою
                 .app_unip 
                     p.tac Завантажити додаток UNIP:
                     .app_btn.flex.gap_30
@@ -92,6 +83,15 @@ html(lang="en")
                         a(href="https://apps.apple.com/ua/app/unip-%D0%BF%D0%B0%D1%80%D0%BA%D1%83%D0%B9%D1%81%D1%8F-%D0%B1%D0%B5%D0%B7-%D0%BF%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC/id1160778590?l=ru").btn.a_store
                             picture
                                 img(src="img/appstore.png", alt="")
+                p.tl.map_text
+                    a(href="#contacts").flex.gap_10.items_center
+                        span.icon
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M1 5.61271V15.7165C1 17.6894 2.24609 18.4994 3.75987 17.5233L5.92899 16.1318C6.39974 15.8307 7.18432 15.7995 7.67352 16.0799L12.5194 18.8109C13.0087 19.0809 13.7932 19.0601 14.264 18.759L18.2607 16.1837C18.7684 15.8514 19.193 15.0415 19.193 14.3769V4.27316C19.193 2.30018 17.9469 1.49022 16.4331 2.46633L14.264 3.8578C13.7932 4.15894 13.0087 4.19009 12.5194 3.90972L7.67352 1.18908C7.18432 0.919092 6.39974 0.93986 5.92899 1.241L1.93226 3.81626C1.41536 4.14855 1 4.95851 1 5.61271Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M6.78741 1.6875V15.1868" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M13.4055 4.40814V18.3021" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg> 
+                        | Мапа терміналів для оплати готівкою
             section.rules_container 
                 .wrapper
                     h2.tac Правила користування паркувальними майданчиками
